@@ -37,9 +37,9 @@ app.post("/create_preference", async (req, res) => {
                 excluded_payment_types: [], // No excluyas ningún tipo de pago
             },
             back_urls: {
-                success: "https://www.google.com/?hl=es",
-                failure: "https://www.google.com/?hl=en",
-                pending: "https://www.google.com/?hl=fr"
+                success: "https://atomicstore.000.pe",
+                failure: "https://atomicstore.000.pe",
+                pending: "https://atomicstore.000.pe"
             },
             auto_return: "approved",
         };
