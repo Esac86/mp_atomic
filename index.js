@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-    res.send("Backend encendido.");
+    res.send("Servidor backend encendido.");
 });
 
 app.listen(port, () => {
