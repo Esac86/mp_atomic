@@ -45,7 +45,7 @@ app.post("/create_preference", async (req, res) => {
         };
         
 
-        console.log("Preferencia a crear:", body);
+        console.log("Preferencia por crear:", body);
 
         const preference = new Preference(client);
         const result = await preference.create({ body });
